@@ -6,7 +6,7 @@ locals {
 }
 
 module "main" {
-  source = "git@github.com:jjbos/modularization-module.git?ref=1.0.0"
+  source = "git@github.com:jjbos/modularization-module.git?ref=v1.0.0"
 
   environment        = local.environment
   app_name           = local.app_name
